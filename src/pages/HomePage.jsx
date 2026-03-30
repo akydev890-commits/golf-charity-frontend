@@ -19,7 +19,6 @@ export default function HomePage() {
       <section className="relative min-h-screen flex items-center pt-16 hero-gradient">
         {/* Background circles */}
         <div className="absolute inset-0 pointer-events-none overflow-hidden">
-          <div className="absolute top-1/3 left-1/2 -translate-x-1/2 w-[700px] h-[700px] rounded-full border border-brand-500/5" />
           <div className="absolute top-1/3 left-1/2 -translate-x-1/2 w-[500px] h-[500px] rounded-full border border-brand-500/8" />
           <div className="absolute top-1/3 left-1/2 -translate-x-1/2 w-[300px] h-[300px] rounded-full border border-brand-500/10" />
           <div className="absolute -top-20 right-0 w-96 h-96 rounded-full bg-brand-500/5 blur-3xl" />
